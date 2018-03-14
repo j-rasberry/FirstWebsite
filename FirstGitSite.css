@@ -2,11 +2,14 @@ body{
 	padding:0;
 	margin:0;
 }
+p{
+	text-align:justify;
+}
 #container{
 	margin:auto auto;
 	width:1000px;
 	text-align:center;
-	//border-bottom:4px solid rgba(100,100,100,.5);
+	
 }
 header{
 	margin:100px;
@@ -19,10 +22,35 @@ header{
 .profile p{
 	display:block;
 }
-#clr{
-	clear:both;
-}
 td{
 	padding:8px;
 	text-align:left;
+}
+.experience{
+	float:left;
+	width:80%;
+}
+.languageList{
+	float:right;
+	padding-right:50px;
+}
+.languageList ul{
+	list-style:none;
+	
+}
+.languageList ul li{
+	font-size:20px;
+	text-align:left;
+}
+.languageList ul li abbr{
+	text-decoration:none;
+	
+}
+h2{
+	border-bottom:2px solid rgba(100,100,100,.5);
+	padding-bottom:10px;
+	
+}
+#clr{
+	clear:both;
 }
