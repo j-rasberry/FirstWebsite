@@ -4,4 +4,25 @@ body{
 }
 #container{
 	margin:auto auto;
+	width:1000px;
+	text-align:center;
+	//border-bottom:4px solid rgba(100,100,100,.5);
+}
+header{
+	margin:100px;
+}
+.profile img{
+	height:75px;
+	border-radius:50%;
+	float:left;
+}
+.profile p{
+	display:block;
+}
+#clr{
+	clear:both;
+}
+td{
+	padding:8px;
+	text-align:left;
 }
