@@ -6,12 +6,19 @@ p{
 	text-align:justify;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
+h2{
+	border-bottom:2px solid rgba(100,100,100,.5);
+	padding-bottom:10px;
+	font-family: "Comic Sans MS", cursive, sans-serif;	
+}
 #container{
 	margin:auto auto;
 	width:1000px;
 	text-align:center;
 	padding-bottom:100px;	
 }
+/* adds heading, nav, profile picture and, author data.*/
+
 header{
 	margin:100px;
 }
@@ -45,6 +52,7 @@ td{
 	padding:8px;
 	text-align:left;
 }
+/* Formats experience section*/
 .experience{
 	float:left;
 	width:77%;
@@ -66,17 +74,13 @@ td{
 	text-decoration:none;
 	
 }
-h2{
-	border-bottom:2px solid rgba(100,100,100,.5);
-	padding-bottom:10px;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	
-}
+/*adds spacing to the bottom*/
 footer{
 	width:100%;
 	margin:0;
 	padding-top:50px;
 }
+/*clears floats*/
 #clr{
 	clear:both;
 }
