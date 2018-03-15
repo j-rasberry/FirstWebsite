@@ -4,15 +4,34 @@ body{
 }
 p{
 	text-align:justify;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #container{
 	margin:auto auto;
 	width:1000px;
 	text-align:center;
-	
+	padding-bottom:100px;	
 }
 header{
 	margin:100px;
+}
+nav{
+	float:right;
+}
+nav li{
+	display:inline;
+	list-style:none;
+	
+}
+nav li a{
+	text-decoration:none;
+	color:black;
+	padding: 0 10px 0 10px;
+	font-size:25px;
+}
+nav li a:hover{
+	border-bottom: 2px solid rgba(100,100,100,.5);
+	font-size:30px;
 }
 .profile img{
 	height:75px;
@@ -50,6 +69,12 @@ h2{
 	border-bottom:2px solid rgba(100,100,100,.5);
 	padding-bottom:10px;
 	
+}
+footer{
+	width:100%;
+	margin:0;
+	padding-top:50px;
+	background: black;
 }
 #clr{
 	clear:both;
