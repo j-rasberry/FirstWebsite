@@ -38,7 +38,6 @@ nav li a{
 }
 nav li a:hover{
 	border-bottom: 2px solid rgba(100,100,100,.5);
-	font-size:30px;
 }
 .profile img{
 	height:75px;
